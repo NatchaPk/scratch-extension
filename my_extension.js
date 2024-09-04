@@ -5,7 +5,7 @@ fetch("https://script.google.com/macros/s/AKfycbyVpWdFnuZAKOwZDBziwgQ2f59bLzDLaO
     },
     body: JSON.stringify({
       username: "YourUsername",
-      score: 100
+      score: currentScore
     })
   })
   .then(response => response.text())
